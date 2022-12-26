@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quizzer</string>
+    <string name="dev_name">Devabrath Sahu</string>
+    <string name="gmail">devabrathsahu7032@gmail.com</string>
+    <string name="quizzer">Quizzer</string>
+    <string name="rst">Restart</string>
+    <string name="start">Start</string>
+    <string name="about">About</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="desp">Quiz Image</string>
+    <string name="developer">Developer</string>
+    <string name="dev_img">Developer Image</string>
+    <string name="back">Back</string>
+    <string name="quit">Quit</string>
+    <string name="nq">Next Question</string>
+    <string name="op1">Option 1</string>
+    <string name="op2">Option 2</string>
+    <string name="op3">Option 3</string>
+    <string name="op4">Option 4</string>
+    <string name="ys">Your Score</string>
+
+</resources>

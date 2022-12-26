@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary90"
+    tools:context=".Results">
+
+    <TextView
+        android:id="@+id/correct_res"
+        android:layout_width="190sp"
+        android:layout_height="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="#49CC12"
+        android:text="Large Text"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <Button
+        android:layout_width="210sp"
+        android:layout_height="40dp"
+        android:text="@string/rst"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button_restart"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:background="#01579B" />
+
+    <TextView
+        android:id="@+id/wrong_res"
+        android:layout_width="180sp"
+        android:layout_height="28sp"
+        android:layout_below="@+id/correct_res"
+        android:layout_marginTop="31dp"
+        android:layout_centerHorizontal="true"
+        android:background="#DD080F"
+        android:text="Large Text"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:layout_width="180sp"
+        android:layout_height="28dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/total_res"
+        android:background="#FFEB3B"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/wrong_res"
+        android:layout_marginTop="33dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="19sp" />
+</RelativeLayout>
