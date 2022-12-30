@@ -1,13 +1,16 @@
 ## Quizzer-App
-This is a basic Quiz App
+This is a basic Quiz App 📱 built using Java ♨️
 
 ## ❤️ Try App
 ## Scan QR Code 
+<img src="https://github.com/devabrath/Quizzer-App/raw/master/Screenshots/qr.png"
+width="200" height="200">
 ---------------
-### Get Apk [Download here]
+### Get Apk [Download here](https://github.com/devabrath/Quizzer-App/raw/master/app/outputs/apk/debug/QuizzerApp.apk)
 ------------
 ## ⚙️ Features
-* App consists of Quiz 
+* App consists of Quiz
+* It consists of Basic GK questions
 * Showing the result at the end the Quiz.
 
 ## 🚀 Technology Used
@@ -16,6 +19,11 @@ This is a basic Quiz App
 
 ## 📸 Screenshots
 
+||||
+|:----------------------------------------:|:-----------------------------------------:|:-----------------------------------------: |
+| ![Imgur](Screenshots/Screenshot_0.png) | ![Imgur](Screenshots/Screenshot_1.png) | ![Imgur](Screenshots/Screenshot_2.png) |
+| ![Imgur](Screenshots/Screenshot_3.png) | ![Imgur](Screenshots/Screenshot_4.png) | ![Imgur](Screenshots/Screenshot_5.png) |
+| ![Imgur](Screenshots/Screenshot_6.png) | ![Imgur](Screenshots/Screenshot_7.png) | ![Imgur](Screenshots/Screenshot_1.png) |
 
 ## License
 ```
