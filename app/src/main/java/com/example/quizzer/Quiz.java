@@ -19,19 +19,30 @@ public class Quiz extends AppCompatActivity {
     RadioButton rb1,rb2,rb3,rb4;
 
     String questions[] = {
-            "Which method can be defined only once in a program?",
-            "Which keyword is used by method to refer to the current object that invoked it?",
-            "Which of these access specifiers can be used for an interface?",
-            "Which of the following is correct way of importing an entire package ‘pkg’?",
-            "What is the return type of Constructors?"
+            "Who is the First Prime Minister of India?",
+            "What is the National Fruit of India?",
+            "When India got Independence?",
+            "Which festival is called the festival of colours?",
+            "A house made of Ice is called --------.",
+            "Diwali is also known as the",
+            "Which animal is known as the \n‘Ship of the Desert?’",
+            "We smell with our - - - -",
+            "In which direction does the sun rise?",
+            "How many consonants are there in the English alphabet?"
+
     };
-    String answers[] = {"main method", "this", "public", "import pkg.*", "None of the mentioned"};
+    String answers[] = {"Jawaharlal Nehru", "Mango", "1947", "Holi", "Igloo", "Festival of lights","Camel","Nose","East","21 consonant"};
     String opt[] = {
-            "finalize method", "main method", "static method", "private method",
-            "import", "this", "catch", "abstract",
-            "public", "protected", "private", "All of the mentioned",
-            "Import pkg.", "import pkg.*", "Import pkg.*", "import pkg.",
-            "int", "float", "void", "None of the mentioned"
+            "Dr.B.R.Ambedkar", "Jawaharlal Nehru", "Sardar Vallabai Patel", "Balgangadhar Tilak",
+            "Apple", "Pomegranate", "Banana", "Mango",
+            "1947", "1967", "1957", "1946",
+            "Sankranthi", "Diwali", "Holi", "None of the Above",
+            "Tent", "Caravan", "Pukka House", "Igloo",
+            "Festival of lights","Festival of Fruits","Festival of Colors","Festival of Vegetable",
+            "Deer","Horse","Camel","Yak",
+            "Nose","Eyes","Mouth","Ears",
+            "South","West","North","East",
+            "22 consonant","21 consonant","23 consonant","20 consonant"
     };
     int flag=0;
     public static int marks=0,correct=0,wrong=0;
